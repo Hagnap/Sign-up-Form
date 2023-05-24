@@ -2,8 +2,11 @@
 
 * {
     margin: 0;
+    font-size: 16px;
 
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
     --fancy-font: 'Amatic SC', cursive;
 }
 
@@ -23,15 +26,17 @@
 
 .logo-and-text {
 
-    margin-top: 30%;
+    margin-top: 20%;
     margin-bottom: 80%;
+
     background-color: rgba(3, 3, 3, 0.35);
 
-    height: 20vh;
+    height: 25vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -41,11 +46,11 @@
 }
 
 .logo-and-text p {
-    font-size: 6rem;
     color: white;
     opacity: 1.0;
 
     font-family: var(--fancy-font);
+    font-size: 10rem;
 }
 
 #img-credits {
@@ -53,6 +58,6 @@
 }
 
 .right {
-    flex-grow: 5;
-    flex-shrink: 5;
+    flex-grow: 4;
+    flex-shrink: 4;
 }
