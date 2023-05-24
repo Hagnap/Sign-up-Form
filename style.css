@@ -64,8 +64,15 @@
 
 #form-div {
     display: inline-block;
+    margin: 16px 24px;
 }
 
 #form-div label {
     display: block;
+}
+
+#log-in-text,
+button {
+
+    margin: 16px 24px;
 }
