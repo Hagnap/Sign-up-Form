@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    margin: 0;
+
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --fancy-font: 'Amatic SC', cursive;
+}
+
 .container {
     height: 100vh;
     width: auto;
@@ -7,14 +16,43 @@
 
 .left {
     background-image: url("images/plant.jpg");
-    width: auto;
-
 
     flex-grow: 1;
     flex-shrink: 1;
 }
 
+.logo-and-text {
+
+    margin-top: 30%;
+    margin-bottom: 80%;
+    background-color: rgba(3, 3, 3, 0.35);
+
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-and-text img {
+    height: 20vh;
+    opacity: 1.0;
+}
+
+.logo-and-text p {
+    font-size: 6rem;
+    color: white;
+    opacity: 1.0;
+
+    font-family: var(--fancy-font);
+}
+
+#img-credits {
+    text-align: center;
+}
+
 .right {
-    flex-grow: 2;
-    flex-shrink: 2;
+    flex-grow: 5;
+    flex-shrink: 5;
 }
