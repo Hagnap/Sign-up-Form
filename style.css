@@ -61,3 +61,11 @@
     flex-grow: 4;
     flex-shrink: 4;
 }
+
+#form-div {
+    display: inline-block;
+}
+
+#form-div label {
+    display: block;
+}
