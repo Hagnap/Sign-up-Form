@@ -1,8 +1,15 @@
 .container {
+    height: 100vh;
+    width: auto;
+
     display: flex;
 }
 
 .left {
+    background-image: url("images/plant.jpg");
+    width: auto;
+
+
     flex-grow: 1;
     flex-shrink: 1;
 }
