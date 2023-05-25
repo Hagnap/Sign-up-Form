@@ -21,8 +21,7 @@ form.addEventListener("submit", (event) => {
   }
     
 
-  console.log(password);
-  console.log(confirmPassword);
+  password.localeCompare(confirmPassword) == 0 ? console.log("Passwords match") : console.log("Passwords do NOT match");
 
 
 
