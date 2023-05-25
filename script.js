@@ -2,15 +2,13 @@ const form = document.querySelector("form");
 let password = "";
 let confirmPassword = "";
 
-
+// Reference: https://javascript.plainenglish.io/how-to-get-html-form-values-with-javascript-b4869bc5e889
 form.addEventListener("submit", (event) => {
 
     event.preventDefault()
     const formData = new FormData(form)
     for (const pair of formData.entries()) {
-        
-        console.log(pair);
-
+    
         if(pair[0] == 'password') {
             password = pair[1];
         }
@@ -27,14 +25,4 @@ form.addEventListener("submit", (event) => {
   else {
     console.log("Passwords do NOT match");
   }
-
-
-
 });
-
-/*
-    btn.addEventListener('click', function (e) {
-    console.log(e);
-    e.target.style.background = 'blue';
-  });
-*/

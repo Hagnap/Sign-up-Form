@@ -7,7 +7,7 @@
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 
-    --green: rgb(60, 88, 16);
+    --green: #596D48 /*rgb(60, 88, 16)*/;
     --fancy-font: 'Amatic SC', cursive;
 }
 
@@ -103,6 +103,9 @@ em {
     display: block;
 }
 
+input:focus {
+    outline: 3px solid #E5E7EB;
+}
 #log-in-text,
 button {
 
