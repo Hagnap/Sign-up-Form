@@ -1,10 +1,10 @@
-const passwordDOM = document.getElementById("password");
+const confirmPasswordDOM = document.getElementById("confirm_password");
 let password = "";
 let confirmPassword = "";
 
 // References: https://javascript.plainenglish.io/how-to-get-html-form-values-with-javascript-b4869bc5e889
 //             https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
-passwordDOM.addEventListener("input", (event) => {
+confirmPasswordDOM.addEventListener("input", (event) => {
   
     password = document.querySelector("input#password").value;
     console.log(password);
@@ -14,10 +14,10 @@ passwordDOM.addEventListener("input", (event) => {
 
     if(password.localeCompare(confirmPassword) == 0) {
     console.log("Passwords match");
-    passwordDOM.setCustomValidity("");
+    confirmPasswordDOM.setCustomValidity("");
     } 
     else {
     console.log("Passwords do NOT match");
-    passwordDOM.setCustomValidity("Passwords do not match!");
+    confirmPasswordDOM.setCustomValidity("Passwords do not match!");
     }   
 });
