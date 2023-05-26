@@ -50,7 +50,12 @@
                         
                         <div class="form-div">
                             <label for="email_address">Email Address</label>
-                            <input id="email_address" type="email" name="email-address" placeholder="example@email.com" pattern="([a-z0-9._%+-]+@[a-z0-9._%+-]+.[a-z])" required>
+                            <!---
+                                My attempted RegEx: pattern="([a-z0-9._%+-]+@[a-z0-9._%+-]+.[a-z])"
+                                The Issue: "Once you put aaaaaaa@b" you the input would be valid, didnt check for a domain or a period
+                            -->
+                            
+                            <input id="email_address" type="email" name="email-address" placeholder="example@email.com" pattern="([a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)" required>
                         </div>
         
                         <div class="form-div">
