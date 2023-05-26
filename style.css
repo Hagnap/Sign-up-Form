@@ -85,21 +85,31 @@ em {
     font-size: 1.5rem;
 }
 
+#form-container {
+    display: flex;
+}
 #form-inputs {
     background-color: white;
     box-shadow: 0px 2px 5px black;
+
+    display: flex;
 }
 
-#form-div {
+#password-rules {
+    align-self: flex-end;
+    margin-bottom: 2%;
+}
+
+.form-div {
     display: inline-block;
     margin: 16px 32px;
 }
 
-#form-div:last-child {
+.form-div:last-child {
     margin-bottom: 48px;
 }
 
-#form-div label {
+.form-div label {
     display: block;
 }
 
