@@ -12,6 +12,10 @@
     --fancy-font: 'Amatic SC', cursive;
 }
 
+body {
+    overflow: hidden;
+}
+
 .container {
     height: 100vh;
     width: auto;
