@@ -3,7 +3,7 @@ let password = "";
 let confirmPassword = "";
 
 // References: https://javascript.plainenglish.io/how-to-get-html-form-values-with-javascript-b4869bc5e889
-// https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+//             https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 passwordDOM.addEventListener("input", (event) => {
   
     password = document.querySelector("input#password").value;
