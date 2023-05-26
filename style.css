@@ -118,11 +118,11 @@ input:focus {
 }
 
 input:focus:valid {
-    outline: 1px dashed green;
+    outline: 1px solid green;
 }
 
 input:focus:invalid {
-    outline: 1px dashed red;
+    outline: 1px dashsolided red;
 }
 
 #log-in-text,
