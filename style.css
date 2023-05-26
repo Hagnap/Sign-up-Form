@@ -106,6 +106,15 @@ em {
 input:focus {
     outline: 3px solid #E5E7EB;
 }
+
+input:focus:valid {
+    outline: 1px dashed green;
+}
+
+input:focus:invalid {
+    outline: 1px dashed red;
+}
+
 #log-in-text,
 button {
 
