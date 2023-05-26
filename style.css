@@ -8,6 +8,7 @@
 
 
     --green: #596D48 /*rgb(60, 88, 16)*/;
+    --dark-background: rgba(3, 3, 3, 0.35);
     --fancy-font: 'Amatic SC', cursive;
 }
 
@@ -29,7 +30,7 @@
 
     margin-top: 20%;
 
-    background-color: rgba(3, 3, 3, 0.35);
+    background-color: var(--dark-background);
 
     height: 25vh;
 
@@ -122,8 +123,9 @@ input:focus:valid {
 }
 
 input:focus:invalid {
-    outline: 1px dashsolided red;
+    outline: 1px solid red;
 }
+
 
 #log-in-text,
 button {
