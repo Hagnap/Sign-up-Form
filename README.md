@@ -4,8 +4,7 @@
 This webpage mimics a sign up form for a service. This project was a good introduction into tables and validation. Flexbox was utilized for the layout of this project. This was also a great way to test my CSS and Javascript skills as well. The password validation was a fun challenge as it was an easy but hard task, if that makes sense? At first it was a bit of a challenge due to unfamiliarity of the task but the further I got into it the easier it felt to accomplish. I also enjoyed the CSS challenge of using psuedo-classes & box-shadow as I recently learned about those two things and it was great practice when it came to using them on thsi project. 
 
 ## Link 
-
-https://jhagg26.github.io/odin-Sign-up-Form/
+https://hagnap.github.io/Sign-up-Form/
 
 
 ## Tech Stack
